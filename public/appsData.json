@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1580910051074-7c65ef3f7f94",
+    "title": "Focus Timer",
+    "companyName": "HERO.IO",
+    "description": "Focus Timer is a powerful productivity application designed to help users maintain deep concentration during work, study, or creative sessions. The app is based on scientifically proven time-management techniques such as the Pomodoro method, enabling users to divide their work into focused intervals followed by short breaks. With customizable timers, distraction-free modes, and session analytics, Focus Timer helps users understand their productivity patterns, reduce burnout, and achieve consistent daily progress. Whether you are a student preparing for exams, a professional working remotely, or a creator managing long projects, Focus Timer provides a structured environment that encourages sustained attention and meaningful results.",
+    "size": 24,
+    "reviews": 12045,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5895 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1580894908360-8e0ec1b6a8c6",
+    "title": "Task Manager Pro",
+    "companyName": "HERO.IO",
+    "description": "Task Manager Pro is an advanced task-planning and organization app built for individuals and teams who want complete control over their daily responsibilities. The app allows users to create tasks, assign priorities, set deadlines, and organize work into projects and categories. Smart reminders ensure that no important task is forgotten, while progress tracking and productivity summaries provide valuable insights into how time is being spent. Task Manager Pro is ideal for professionals, freelancers, and students who want a reliable system to stay organized, reduce stress, and maintain focus on what truly matters.",
+    "size": 32,
+    "reviews": 9800,
+    "ratingAvg": 4.4,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 4160 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1581090700227-1e37b190418e",
+    "title": "Daily Planner",
+    "companyName": "Planify",
+    "description": "Daily Planner is a comprehensive planning application that helps users structure their day with clarity and intention. The app combines scheduling, goal setting, and progress tracking into a single intuitive experience. Users can plan daily routines, break goals into actionable steps, and visualize productivity through charts and timelines. Daily Planner is designed to support long-term personal growth by encouraging consistency, balance, and reflection, making it a valuable companion for busy professionals and goal-oriented individuals.",
+    "size": 28,
+    "reviews": 15020,
+    "ratingAvg": 4.7,
+    "downloads": 1450000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 6940 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3",
+    "title": "Note Keeper",
+    "companyName": "NoteLabs",
+    "description": "Note Keeper is a secure and easy-to-use note-taking application built for capturing ideas, meeting notes, research, and personal thoughts. With cloud synchronization, offline access, and intelligent search, users can access their notes anytime across devices. The app emphasizes simplicity and reliability while offering advanced features such as tagging, folders, and formatting tools. Note Keeper is ideal for students, writers, and professionals who need a dependable digital notebook for everyday use.",
+    "size": 18,
+    "reviews": 7400,
+    "ratingAvg": 4.3,
+    "downloads": 610000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 2700 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868",
+    "title": "Habit Tracker",
+    "companyName": "GrowDaily",
+    "description": "Habit Tracker is designed to help users build and maintain positive habits through visual progress tracking and daily reminders. The app focuses on long-term behavior change by encouraging small, consistent actions over time. Users can track habit streaks, analyze performance trends, and stay motivated through achievements and insights. Habit Tracker is perfect for individuals looking to improve productivity, health, and personal discipline.",
+    "size": 26,
+    "reviews": 13400,
+    "ratingAvg": 4.8,
+    "downloads": 1750000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 820 },
+      { "name": "4 star", "count": 3900 },
+      { "name": "5 star", "count": 8200 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
+    "title": "Expense Tracker",
+    "companyName": "MoneyMind",
+    "description": "Expense Tracker helps users gain full control over their personal finances by tracking income, expenses, and budgets in a clear and organized way. The app categorizes transactions automatically and generates insightful reports that help users understand spending habits. With monthly summaries and budget alerts, Expense Tracker empowers users to make smarter financial decisions and achieve long-term financial stability.",
+    "size": 30,
+    "reviews": 11200,
+    "ratingAvg": 4.5,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 5050 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "title": "Meditation Zen",
+    "companyName": "CalmSpace",
+    "description": "Meditation Zen is a mindfulness and mental wellness application offering guided meditation sessions, breathing exercises, and calming soundscapes. The app is designed to reduce stress, improve focus, and support emotional well-being. With sessions for beginners and advanced users alike, Meditation Zen helps users establish a daily mindfulness routine that promotes relaxation and inner balance.",
+    "size": 42,
+    "reviews": 18600,
+    "ratingAvg": 4.9,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 540 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 14610 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    "title": "Weather Plus",
+    "companyName": "SkyTech",
+    "description": "Weather Plus delivers accurate real-time weather forecasts, severe weather alerts, and extended outlooks. The app is designed with clarity and reliability in mind, providing users with essential weather information for daily planning, travel, and outdoor activities. Weather Plus ensures users stay informed and prepared for changing weather conditions.",
+    "size": 20,
+    "reviews": 8900,
+    "ratingAvg": 4.2,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 650 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3850 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "title": "Fitness Coach",
+    "companyName": "FitLife",
+    "description": "Fitness Coach provides personalized workout routines, progress tracking, and fitness insights to help users achieve their health goals. The app supports various training styles and fitness levels, making it suitable for beginners and experienced athletes alike. Fitness Coach encourages healthy habits through structured plans and consistent motivation.",
+    "size": 38,
+    "reviews": 14200,
+    "ratingAvg": 4.6,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 8140 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159",
+    "title": "Language Learner",
+    "companyName": "LinguaGo",
+    "description": "Language Learner helps users master new languages through interactive lessons, vocabulary exercises, pronunciation practice, and real-world conversations. The app focuses on gradual learning and retention, making language acquisition enjoyable and effective for learners of all levels.",
+    "size": 34,
+    "reviews": 16800,
+    "ratingAvg": 4.7,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 10590 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "title": "Project Planner",
+    "companyName": "WorkFlowX",
+    "description": "Project Planner is a powerful collaboration and planning tool designed to help teams manage projects efficiently from start to finish. The app provides task timelines, milestone tracking, and role assignments that ensure everyone stays aligned. With real-time updates, progress visualization, and productivity insights, Project Planner helps teams deliver projects on time while reducing miscommunication and delays.",
+    "size": 36,
+    "reviews": 10240,
+    "ratingAvg": 4.5,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 4670 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "Code Companion",
+    "companyName": "DevCore",
+    "description": "Code Companion is a productivity-enhancing application built specifically for developers. It helps programmers organize coding tasks, manage learning goals, and track development progress. With built-in reminders, learning checkpoints, and session tracking, Code Companion supports developers in maintaining focus, improving skills, and achieving long-term career growth.",
+    "size": 40,
+    "reviews": 15800,
+    "ratingAvg": 4.8,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 750 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 10440 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+    "title": "Meeting Notes",
+    "companyName": "OfficeEase",
+    "description": "Meeting Notes is designed to capture, organize, and manage important meeting discussions and decisions. The app allows users to record notes in real time, tag key action points, and share summaries with team members. With cloud synchronization and search functionality, Meeting Notes ensures that valuable information is never lost.",
+    "size": 22,
+    "reviews": 8600,
+    "ratingAvg": 4.3,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4210 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "title": "Sleep Tracker",
+    "companyName": "HealthNest",
+    "description": "Sleep Tracker helps users understand and improve their sleep patterns by monitoring sleep duration, quality, and consistency. The app provides detailed insights and personalized recommendations that support healthier sleep habits. With gentle alarms and progress reports, Sleep Tracker promotes better rest and overall wellness.",
+    "size": 27,
+    "reviews": 19200,
+    "ratingAvg": 4.7,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 940 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 12400 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "title": "Mind Journal",
+    "companyName": "InnerSpace",
+    "description": "Mind Journal is a digital journaling application focused on mental clarity, emotional awareness, and self-reflection. Users can document thoughts, moods, and daily experiences in a secure and private environment. The app encourages mindfulness and personal growth through prompts, mood tracking, and reflection insights.",
+    "size": 21,
+    "reviews": 11350,
+    "ratingAvg": 4.6,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 6120 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "title": "Study Buddy",
+    "companyName": "EduSpark",
+    "description": "Study Buddy is a learning support application created to help students improve focus and academic performance. The app offers structured study sessions, progress tracking, and goal setting tools. Designed for learners of all levels, Study Buddy promotes consistency and effective study habits.",
+    "size": 29,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": 860000,
+    "ratings": [
+      { "name": "1 star", "count": 270 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 4780 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f",
+    "title": "Cloud Vault",
+    "companyName": "SecureBox",
+    "description": "Cloud Vault is a secure file storage and management application that allows users to safely store, organize, and access files from anywhere. With encryption, backup options, and seamless synchronization, Cloud Vault ensures data protection while maintaining ease of access across devices.",
+    "size": 45,
+    "reviews": 13400,
+    "ratingAvg": 4.6,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3900 },
+      { "name": "5 star", "count": 8090 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0",
+    "title": "Time Tracker",
+    "companyName": "TimeWise",
+    "description": "Time Tracker helps users monitor how they spend their time across tasks and projects. By offering detailed reports and usage insights, the app enables users to identify inefficiencies, improve focus, and optimize daily routines for better productivity.",
+    "size": 31,
+    "reviews": 9100,
+    "ratingAvg": 4.4,
+    "downloads": 790000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 4270 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308",
+    "title": "Reading Tracker",
+    "companyName": "BookNest",
+    "description": "Reading Tracker is an application designed for book lovers who want to track reading habits, set goals, and discover new books. The app provides progress tracking, reading statistics, and motivational insights that encourage consistent reading and learning.",
+    "size": 23,
+    "reviews": 7600,
+    "ratingAvg": 4.5,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 3740 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64",
+    "title": "Goal Achiever",
+    "companyName": "LifeTrack",
+    "description": "Goal Achiever is a personal development application designed to help users define, track, and achieve life goals. The app breaks long-term goals into actionable steps, tracks progress over time, and provides motivation through milestones and achievements. Goal Achiever supports users in building discipline, focus, and long-term success.",
+    "size": 35,
+    "reviews": 18200,
+    "ratingAvg": 4.8,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 11850 }
+    ]
+  }
+]

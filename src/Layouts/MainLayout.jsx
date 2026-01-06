@@ -1,15 +1,18 @@
-import React from 'react';
-import Header from '../Components/Header';
-import { Outlet } from 'react-router';
-import Footer from '../Components/Footer';
+import React from "react";
+import { Outlet } from "react-router";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+
 const MainLayout = () => {
-    return (
-        <div>
-            <Header></Header>
-            <Outlet></Outlet>
-            <Footer></Footer>
-        </div>
-    );
+  return (
+    <div className="flex flex-col min-h-screen overflow-x-hidden">
+      <Header />
+      <main className="flex-1">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
+  );
 };
 
 export default MainLayout;
