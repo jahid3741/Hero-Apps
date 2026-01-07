@@ -2,8 +2,13 @@ import React from "react";
 import { FaAppStoreIos } from "react-icons/fa6";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import phone from "../assets/hero.png";
+import useApps from "../Hooks/useApps";
+import AppsCard from "../Components/AppsCard";
 
 const Home = () => {
+  const {apps} = useApps();
+  // const {image,title, downloads, ratingAvg} = apps;
+  const featuredApps = apps.slice(0, 8)
   return (
     <div className="overflow-x-hidden">
 
@@ -92,6 +97,22 @@ const Home = () => {
 
         </div>
       </section>
+<div className="flex flex-col items-center justify-center text-center px-4 mt-10">
+  <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold text-black">
+    Trending Apps
+  </h1>
+  <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-400 max-w-2xl">
+    Explore all trending apps on the market developed by us
+  </p>
+</div>
+<div>
+  {
+    featuredApps.map(app => (
+      <AppsCard key={app.id} app={app}></AppsCard>
+    )
+  )
+  }
+</div>
 
     </div>
   );
