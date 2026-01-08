@@ -4,7 +4,7 @@ import { IoLogoGooglePlaystore } from "react-icons/io5";
 import phone from "../assets/hero.png";
 import useApps from "../Hooks/useApps";
 import AppsCard from "../Components/AppsCard";
-
+import { Link } from "react-router";
 const Home = () => {
   const {apps} = useApps();
   // const {image,title, downloads, ratingAvg} = apps;
@@ -105,13 +105,35 @@ const Home = () => {
     Explore all trending apps on the market developed by us
   </p>
 </div>
-<div>
+<div className="mt-10">
+  <div className="
+        grid grid-cols-1
+        sm:grid-cols-2
+        lg:grid-cols-4
+        gap-6">
   {
     featuredApps.map(app => (
       <AppsCard key={app.id} app={app}></AppsCard>
     )
   )
   }
+</div>
+</div>
+<div className="flex justify-center items-center mt-6 mb-10">
+  <Link
+    to="/allapps"
+    className="
+      text-lg font-semibold
+      bg-gradient-to-r from-[#632EE3] to-[#9F62F2]
+      text-white
+      transition-all duration-300
+      hover:opacity-80
+      px-10 py-3 rounded-lg
+      
+    "
+  >
+    Show All
+  </Link>
 </div>
 
     </div>

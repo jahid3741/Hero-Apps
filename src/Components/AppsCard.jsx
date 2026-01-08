@@ -1,27 +1,33 @@
-import React from 'react';
-import useApps from '../Hooks/useApps';
+const AppsCard = ({ app }) => {
+  const { image, title, downloads, ratingAvg } = app || {};
 
-const AppsCard = () => {
-    const {apps} = useApps();
-    console.log(apps)
-    return (
-        <div>
-            <div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-</div>
+  return (
+    <div className="card bg-base-100 shadow-sm hover:shadow-lg transition rounded-lg">
+      <figure className="h-40 overflow-hidden">
+        <img
+          src={image}
+          alt={title || "App image"}
+          className="w-full h-full object-cover"
+        />
+      </figure>
+
+      <div className="card-body p-4">
+        <h2 className="font-semibold text-lg">
+          {title || "Unknown App"}
+        </h2>
+
+        <div className="mt-2 flex justify-between items-center text-sm">
+          <span className="text-gray-500">
+            📥 {Number(downloads || 0).toLocaleString()}
+          </span>
+
+          <span className="text-yellow-500 font-semibold">
+            ⭐ {ratingAvg ?? "N/A"}
+          </span>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default AppsCard;
