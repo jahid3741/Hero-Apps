@@ -16,16 +16,23 @@ console.log(apps)
 
   return (
     <section className="py-10">
-      <div className="items-center">
-        <h1>Our All Applications</h1>
-         <p className="text-gray-500 mt-1">
-            Explore all apps developed by us. Built for productivity and growth.
-          </p>
-      </div>
+<div className="flex flex-col items-center justify-center text-center font-bold ">
+  <h1 className="font-bold 
+                 text-5xl">
+    Our All Applications
+  </h1>
+
+  <p className="text-[#627382] mt-3 text-2xl
+               sm:text-base md:text-lg 
+                max-w-md sm:max-w-lg md:max-w-xl">
+    Explore All Apps on the Market developed by us. We code for Millions.
+  </p>
+</div>
+
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-8">
         <div>
           <h2 className="text-2xl font-semibold text-gray-900">
-            {filteredApps.length} Apps Found
+            ({filteredApps.length}) Apps Found
           </h2>
         </div>
 
@@ -41,14 +48,23 @@ console.log(apps)
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-  {filteredApps.map((app, index) => (
-    <AppsCard
-      key={`${app.title || "app"}-${index}`}
-      app={app}
-    />
-  ))}
-</div>
+{filteredApps.length === 0 ? (
+  <div className="flex items-center justify-center py-20">
+    <p className="text-xl text-gray-500 font-semibold">
+      No App Found
+    </p>
+  </div>
+) : (
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {filteredApps.map((app, index) => (
+      <AppsCard
+        key={`${app.title || "app"}-${index}`}
+        app={app}
+      />
+    ))}
+  </div>
+)}
+
 
     </section>
   );
