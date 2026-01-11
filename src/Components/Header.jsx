@@ -38,7 +38,7 @@ const Header = () => {
             </li>
 
             <li>
-              <a>Installation</a>
+              <Link to="/installation">Installation</Link>
             </li>
 
             <li>
@@ -75,7 +75,7 @@ const Header = () => {
             <Link to="/allapps">Apps</Link>
           </li>
           <li>
-            <a>Installation</a>
+            <Link to="/installation">Installation</Link>
           </li>
         </ul>
       </div>
