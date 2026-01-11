@@ -87,7 +87,7 @@ const MyInstallation = () => {
           onChange={(e) => handleSort(e.target.value)}
           className="border rounded-md px-4 py-2 text-gray-700 focus:outline-none"
         >
-          <option value="">Sort by Downloads</option>
+          <option value="">Sort by size</option>
           <option value="high-low">High → Low</option>
           <option value="low-high">Low → High</option>
         </select>
