@@ -1,15 +1,12 @@
-import React from 'react';
-import image from '../assets/logo.png';
+import React from "react";
+import image from "../assets/logo.png";
 import { FaGithub } from "react-icons/fa";
-import { Link } from 'react-router';
+import { Link } from "react-router";
 
 const Header = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm px-2 md:px-4">
-
-      {/* ---------- LEFT ---------- */}
       <div className="navbar-start">
-
         {/* Mobile menu */}
         <div className="dropdown lg:hidden">
           <label tabIndex={0} className="btn btn-ghost">
@@ -20,8 +17,12 @@ const Header = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
             </svg>
           </label>
 
@@ -29,9 +30,16 @@ const Header = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-3 shadow bg-base-100 rounded-box w-56 space-y-2"
           >
-            <li><Link to="/">Home</Link></li>
-            <li><a>Apps</a></li>
-            <li><a>Installation</a></li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/allapps">Apps</Link>
+            </li>
+
+            <li>
+              <a>Installation</a>
+            </li>
 
             <li>
               <Link
@@ -60,9 +68,15 @@ const Header = () => {
       {/* ---------- CENTER (Desktop only) ---------- */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-1">
-          <li><Link to="/">Home</Link></li>
-          <li><a>Apps</a></li>
-          <li><a>Installation</a></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/allapps">Apps</Link>
+          </li>
+          <li>
+            <a>Installation</a>
+          </li>
         </ul>
       </div>
 
@@ -82,7 +96,6 @@ const Header = () => {
           <span className="font-medium">Contribute</span>
         </Link>
       </div>
-
     </div>
   );
 };
